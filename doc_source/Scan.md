@@ -27,7 +27,7 @@ A `Scan` operation can retrieve a maximum of 1 MB of data\. This limit applies b
 
 With `Scan`, you can specify any attributes in a filter expression—including partition key and sort key attributes\.
 
-The syntax for a filter expression is identical to that of a condition expression\. Filter expressions can use the same comparators, functions, and logical operators as a condition expression\. For more information, [Condition Expressions](Expressions.ConditionExpressions.md)\.
+The syntax for a filter expression is identical to that of a condition expression\. Filter expressions can use the same comparators, functions, and logical operators as a condition expression\. For more information, see [Condition Expressions](Expressions.ConditionExpressions.md)\.
 
 **Example**  
 The following AWS Command Line Interface \(AWS CLI\) example scans the `Thread` table and returns only the items that were last posted to by a particular user\.  
